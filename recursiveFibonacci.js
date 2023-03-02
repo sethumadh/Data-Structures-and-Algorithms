@@ -8,4 +8,4 @@ const recFab = (n) => {
 }
 console.log(recFab(5))
 
-// bigO=O(2^n)
+// bigO=O(n)
