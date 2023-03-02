@@ -8,3 +8,5 @@ const fact = (n) => {
   return arr
 }
 console.log(fact(10))
+
+// big-o = O(n)

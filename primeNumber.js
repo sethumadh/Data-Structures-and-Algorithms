@@ -10,3 +10,5 @@ const primenumber = (n) => {
   return true
 }
 console.log(primenumber(10))
+
+// big-O= O(sqrt(n))
