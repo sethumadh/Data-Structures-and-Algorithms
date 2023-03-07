@@ -1,12 +1,11 @@
 //factorial array
-
 const fact = (n) => {
-  let arr = [1, 2]
-  for (let i = 0; i < n-2; i++) {
-    arr[i + 2] = arr[i] * arr[i + 1]
+  let result = 1
+  for (let i = 1; i <= n; i++) {
+    result = result * i
   }
-  return arr
+  return result
 }
-console.log(fact(10))
+console.log(fact(5))
 
 // big-o = O(n)

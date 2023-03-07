@@ -1,10 +1,9 @@
-
-const recFab = (n) => {
+const recFact = (n) => {
   if (n < 2) return 1
   else {
-    return recFab(n - 1) + recFab(n - 2)
+    return n * recFact(n - 1)
   }
 }
-console.log(recFab(5))
+console.log(recFact(5))
 
 // bigO=O(2^n)
