@@ -9,4 +9,6 @@ const binarySearch = (n, arr) => {
   }
   return -1
 }
-console.log(binarySearch(10, [1, 3, 4, 5]))
+console.log(binarySearch(1, [1, 3, 4, 5]))
+
+//  bigO=O(1)

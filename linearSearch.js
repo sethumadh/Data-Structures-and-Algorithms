@@ -11,4 +11,4 @@ const linearSearch = (n, arr) => {
 
 console.log(linearSearch(5, [1, 3, 3, 5]))
 
-// bigO = O(n)
+// bigO = o(log(n))
