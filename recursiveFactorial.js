@@ -6,4 +6,5 @@ const recFact = (n) => {
 }
 console.log(recFact(5))
 
-// bigO=O(2^n)
+// bigO=O(n)
+

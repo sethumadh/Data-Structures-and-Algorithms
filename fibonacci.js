@@ -1,20 +1,11 @@
-
-
-// fabonacci
+// // fabonacci
 const fab = (n) => {
-  if (n <= 2) {
-    return arr
+  const arr = [0, 1]
+  for (let i = 0; i <= n - 3; i++) {
+    arr[i + 2] = arr[i] + arr[i + 1]
   }
-
-  let arr = [0, 1]
-  for (let i = 1; i <= n - 2; i++) {
-    arr[i + 1] = arr[i] + arr[i - 1]
-  }
-  return arr[arr.length-1]
+  return arr
 }
+console.log(fab(5))
 
-console.log(fab(10))
-
-
-
-// Big-0=O(n)
+// // Big-0=O(n)

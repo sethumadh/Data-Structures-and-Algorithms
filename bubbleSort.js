@@ -17,3 +17,5 @@ const bubbleSort = (arr) => {
 console.log(bubbleSort([10, 3, 4, 5, 2, 4, 8, 1]))
 
 // big O = O(n^2)
+
+

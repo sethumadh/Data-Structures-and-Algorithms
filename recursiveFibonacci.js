@@ -1,5 +1,3 @@
-let arr = [0, 1]
-let i = 1
 const recFab = (n) => {
   if (n < 2) return 1
   else {
@@ -8,4 +6,4 @@ const recFab = (n) => {
 }
 console.log(recFab(5))
 
-// bigO=O(n)
+// bigO=O(2^n)

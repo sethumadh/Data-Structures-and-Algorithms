@@ -18,5 +18,6 @@ const insertionSort = (arr) => {
   }
   return arr
 }
-
 console.log(insertionSort([10, 13, 4, 15, 2, 4, 8, 1]))
+
+

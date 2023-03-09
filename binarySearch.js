@@ -12,3 +12,4 @@ const binarySearch = (n, arr) => {
 console.log(binarySearch(1, [1, 3, 4, 5]))
 
 //  bigO=O(1)
+

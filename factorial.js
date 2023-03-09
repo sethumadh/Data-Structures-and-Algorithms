@@ -9,3 +9,5 @@ const fact = (n) => {
 console.log(fact(5))
 
 // big-o = O(n)
+
+

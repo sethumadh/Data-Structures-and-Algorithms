@@ -14,3 +14,5 @@ function twoRoot(n) {
 console.log(twoRoot(8))
 
 // big-O=o(log(n))
+
+
