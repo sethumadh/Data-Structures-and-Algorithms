@@ -1,5 +1,14 @@
 //
-function mergeSort(arr1, arr2) {
+
+function mergeSort(arr) {
+  if (arr.length <= 1) return arr
+  let mid = Math.floor(arr.length  / 2)
+  let left = mergeSort(arr.slice(0, mid))
+  let right = mergeSort(arr.slice(mid))
+  return merge(left, right)
+}
+
+function merge(arr1, arr2) {
   let i = 0
   let j = 0
   let sortedArray = []
@@ -24,4 +33,4 @@ function mergeSort(arr1, arr2) {
   return sortedArray
 }
 
-console.log(mergeSort([1, 5, 8, 9], [2, 3, 4, 6]))
+console.log(mergeSort([1, 5, 8, 9,2,5,3,7,11,0]))
