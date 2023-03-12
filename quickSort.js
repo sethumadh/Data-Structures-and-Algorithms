@@ -11,3 +11,5 @@ const quickSort = (arr) => {
   return [...quickSort(leftArray), pivot, ...quickSort(rightArray)]
 }
 console.log(quickSort([1, 10, 4, 13, 15, 2, 4, 8, 1]))
+// BigO= O(n^2) - worst case
+// avg case BigO= O(nlogn)
